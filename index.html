@@ -7,23 +7,48 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>NFT Card</title>
   </head>
+
   <body>
     <div class="card">
-      <img src="images/image-equilibrium.jpg" alt="nft" />
+      <div class="card_top">
+        <div class="card_top-img">
+          <img src="images/image-equilibrium.jpg" alt="nft" />
+        </div>
+      </div>
 
-      <h1>Equilibrium #3429</h1>
+      <div class="card_body">
+        <h3 class="title">Equilibrium #3429</h3>
+        <p class="card_text">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
 
-      <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="wrapper">
+          <div class="card_price">
+            <img src="images/icon-ethereum.svg" alt="eth" class="icon" />
+            <p>0.041 ETH</p>
+          </div>
 
-      <p>0.041 ETH</p>
+          <div class="card_time">
+            <img src="images/icon-clock.svg" alt="clock" class="icon" />
+            <span>3 days left</span>
+          </div>
+        </div>
+      </div>
 
-      <p>3 days left</p>
-
-      <p>Creation of Jules Wyvern</p>
-
-      <img src="images/image-avatar.png" alt="avatar" />
+      <div class="footer">
+        <img src="images/image-avatar.png" alt="avatar" class="avatar" />
+        <p class="author">Creation of</p>
+        <p class="name">Jules Wyvern</p>
+        <p></p>
+      </div>
     </div>
   </body>
 </html>
