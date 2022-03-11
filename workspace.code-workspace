@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../../Downloads/nft-preview-card-component-main"
+	}
+],
+  "settings": {
+    "files.autoSave": "onFocusChange",
+    "liveServer.settings.root": "/src",
+    "liveServer.settings.multiRootWorkspaceName": "ex10-"
+  }
+}
